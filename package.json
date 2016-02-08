@@ -1,0 +1,25 @@
+{
+  "name": "trelloproject",
+  "version": "0.1.0",
+  "description": "This is analog of the Trello app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basilliy/TrelloProject.git"
+  },
+  "keywords": [
+    "analog",
+    "trello",
+    "good",
+    "app"
+  ],
+  "author": "Agile team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Basilliy/TrelloProject/issues"
+  },
+  "homepage": "https://github.com/Basilliy/TrelloProject#readme"
+}
