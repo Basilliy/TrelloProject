@@ -11,6 +11,10 @@
           url: "/",
           templateUrl: "scripts/index/index.html"
         })
+        .state('registration',{
+          url: "/registation",
+          templateUrl: "scripts/registration/register.html"
+        })
         .state('boards', {
           url: '/boards',
           templateUrl: 'scripts/boards/boards.html'
