@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="trelloproject">
 <head>
   <meta charset="UTF-8">
   <title>Trello Project</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
-  <h1>Hello world</h1>
-  <h2>Maybe it will be a good app</h2>
-  <script src="scripts/app.js"></script>
+ <div ui-view></div>
+ 
+  <script src="../node_modules/angular/angular.min.js"></script>
+  <script src="../node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+   <script src="scripts/app.js"></script>
 </body>
 </html>

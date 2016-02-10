@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/Basilliy/TrelloProject/issues"
   },
-  "homepage": "https://github.com/Basilliy/TrelloProject#readme"
+  "homepage": "https://github.com/Basilliy/TrelloProject#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18"
+  }
 }
