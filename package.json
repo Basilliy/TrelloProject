@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/Basilliy/TrelloProject/issues"
   },
-  "homepage": "https://github.com/Basilliy/TrelloProject#readme"
+  "homepage": "https://github.com/Basilliy/TrelloProject#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-resource": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "install": "^0.4.2",
+    "npm": "^3.7.1",
+    "ui-router": "^0.2.15"
+  }
 }
