@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="trelloproject">
+<html lang="en" ng-app="trelloProject">
 <head>
+  <base href="/">
   <meta charset="UTF-8">
   <title>Trello Project</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
- <div ui-view></div>
+  <div ui-view></div>
+  <script src="/dist/vendor.js"></script>
+  <script src="/scripts/app.js"></script>
+  <script src="/scripts/boards/boards.ctrl.js"></script>
 
-  <script src="../node_modules/angular/angular.min.js"></script>
-  <script src="../node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
-   <script src="scripts/app.js"></script>
 </body>
 </html>
