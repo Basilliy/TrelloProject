@@ -9,23 +9,21 @@
       $stateProvider
         .state('index', {
           url: '/',
-          templateUrl: 'scripts/index/index.tpl.html'
+          templateUrl: './scripts/index/index.tpl.html'
         })
         .state('login',{
           url: '/login',
-          templateUrl: 'scripts/login/login.tpl.html',
+          templateUrl: './scripts/login/login.tpl.html',
           controller: 'loginPageController',
           controllerAs: 'vm'
         })
         .state('registration',{
           url: '/registation',
-          templateUrl: 'scripts/registration/register.html'
+          templateUrl: './scripts/registration/register.html'
         })
-        .state('boards', {
-          url: '/boards',
-          templateUrl: 'scripts/boards/boards.html',
-          controller: 'boardsPageController',
-          controllerAs: 'vm'
+        .state('404', {
+          url: '/404',
+          templateUrl: './scripts/404/404.tpl.html'
         });
 
     $urlRouterProvider.otherwise("/404");
