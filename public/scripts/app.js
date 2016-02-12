@@ -19,13 +19,16 @@
         })
         .state('registration',{
           url: '/registation',
-          templateUrl: './scripts/registration/register.html'
+          templateUrl: './scripts/registration/register.html',
+          controller: 'registrationPageController',
+          controllerAs: 'vm'
         })
         .state('404', {
           url: '/404',
           templateUrl: './scripts/404/404.tpl.html'
         });
 
+    $urlRouterProvider.when('', '/');
     $urlRouterProvider.otherwise("/404");
     // $locationProvider.html5Mode({ enabled: true, requireBase: true }).hashPrefix('!');
 
