@@ -11,7 +11,6 @@
       vm.login = login;
 
       function login(validate) {
-        console.log("heere")
         vm.submitted = true;
 
         if (validate) {

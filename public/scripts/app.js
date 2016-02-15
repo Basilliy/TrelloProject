@@ -1,15 +1,16 @@
 (function() {
 
   angular
-    .module('trelloProject' ,['ui.router'])
-    .config(configRouter);
+    .module('trelloProject' ,['ui.router', 'ngResource'])
+    .config(configRouter)
+    .run(configRun)
 
-    configRouter.$inject = ["$locationProvider", "$stateProvider", "$urlRouterProvider"];
+    configRouter.$inject = ['$locationProvider', '$stateProvider', '$urlRouterProvider'];
     function configRouter($locationProvider, $stateProvider, $urlRouterProvider){
       $stateProvider
-        .state('index', {
+        .state('home', {
           url: '/',
-          templateUrl: './scripts/index/index.tpl.html'
+          templateUrl: './scripts/home/home.tpl.html'
         })
         .state('login',{
           url: '/login',
@@ -23,14 +24,22 @@
           controller: 'registrationPageController',
           controllerAs: 'vm'
         })
-        .state('404', {
+        .state('notfound', {
           url: '/404',
           templateUrl: './scripts/404/404.tpl.html'
         });
 
-    $urlRouterProvider.when('', '/');
-    $urlRouterProvider.otherwise("/404");
-    // $locationProvider.html5Mode({ enabled: true, requireBase: true }).hashPrefix('!');
+      $urlRouterProvider.when('', '/');
+      $urlRouterProvider.otherwise('/404');
+      // $locationProvider.html5Mode({ enabled: true, requireBase: true }).hashPrefix('!');
 
+    }
+
+    configRun.$inject = ['$rootScope', '$state', '$window'];
+    function configRun($rootScope, $state, $window) {
+      $rootScope.$on('$stateChangeSuccess', function(event, toState){
+        var stateNames = toState.name.split('.');
+        document.body.className = stateNames[stateNames.length - 1] + '-page';
+      });
     }
 })();
