@@ -3,7 +3,7 @@
 
   angular
     .module('trelloProject')
-    .controller('loginPageController', LoginPageController);
+    .controller('LoginPageController', LoginPageController);
 
     function LoginPageController() {
       var vm = this;

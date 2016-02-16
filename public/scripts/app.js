@@ -1,7 +1,7 @@
 (function() {
 
   angular
-    .module('trelloProject' ,['ui.router', 'ngResource'])
+    .module('trelloProject', ['ui.router', 'ngResource'])
     .config(configRouter)
     .run(configRun)
 
@@ -15,13 +15,19 @@
         .state('login',{
           url: '/login',
           templateUrl: './scripts/login/login.tpl.html',
-          controller: 'loginPageController',
+          controller: 'LoginPageController',
           controllerAs: 'vm'
         })
         .state('registration',{
           url: '/registation',
-          templateUrl: './scripts/registration/register.html',
-          controller: 'registrationPageController',
+          templateUrl: './scripts/registration/registration.tpl.html',
+          controller: 'RegistrationPageController',
+          controllerAs: 'vm'
+        })
+        .state('lists',{
+          url: '/lists',
+          templateUrl: './scripts/lists/lists.tpl.html',
+          controller: 'ListsPageController',
           controllerAs: 'vm'
         })
         .state('notfound', {

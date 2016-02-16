@@ -1,5 +1,4 @@
-
-describe('registrationPageController', function() {
+describe('RegistrationPageController', function() {
   var scope;
 
   beforeEach(function(){
@@ -10,11 +9,11 @@ describe('registrationPageController', function() {
       var localInjections = {
         $scope: scope,
       };
-      $controller('registrationPageController as vm', localInjections);
+      $controller('RegistrationPageController as vm', localInjections);
     });
   });
 
   it('should expose title', function() {
-    expect(scope.vm.greeting).equal('Hello world');
+    expect(scope.vm.greeting).toEqual('Hello world');
   });
 });

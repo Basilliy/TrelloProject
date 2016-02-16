@@ -3,9 +3,10 @@
 
   angular
     .module('trelloProject')
-    .controller('registrationPageController', registrationPageController);
+    .controller('RegistrationPageController', RegistrationPageController);
 
-    function registrationPageController() {
+    RegistrationPageController.$inject = ["$state"];
+    function RegistrationPageController($state) {
       var vm = this;
       vm.registration = registration;
       vm.greeting = "Hello world";
@@ -14,9 +15,7 @@
         vm.submitted = true;
 
         if (validate) {
-          console.log(vm.email)
-          console.log(vm.password)
-          alert('well done');
+          $state.go('lists')
         }
       }
 
