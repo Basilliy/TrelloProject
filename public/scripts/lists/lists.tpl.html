@@ -23,18 +23,23 @@
   </div>
   <!-- /.lists__header -->
   <div class="lists__wrapper">
-    <div class="list__wrapper" ng-repeat="list in vm.listsTitle">
-      <list data="list"></list>
+    <div class="list__wrapper" ng-repeat="list in vm.listsTitle track by $index">
+      <list data="list" reload="vm.removeList(title)"></list>
     </div>
     <div class="list__wrapper list__new well well-sm">
-        <p class="list__new__placeholder" ng-click="vm.setVisibleNewList()" ng-hide="vm.visibleNewList">Add a list...</p>
-        <input type="text" class="list__new__input" ng-model="vm.newListTitle" ng-show="vm.visibleNewList">
-        <div class="list__new__controll" ng-show="vm.visibleNewList">
-          <button type="button" class="btn btn-success card__new__add" ng-click="vm.createNewList()">Save</button>
-          <button type="button" class="close card__new__close" aria-label="Close" ng-click="vm.visibleNewList = false">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
+      <p class="list__new__placeholder"
+         ng-click="vm.setVisibleNewList()"
+         ng-hide="vm.visibleNewList">Add a list...</p>
+      <input type="text"
+             class="list__new__input"
+             ng-model="vm.newListTitle"
+             ng-show="vm.visibleNewList">
+      <div class="list__new__controll" ng-show="vm.visibleNewList">
+        <button type="button" class="btn btn-success card__new__add" ng-click="vm.createNewList()">Save</button>
+        <button type="button" class="close card__new__close" aria-label="Close" ng-click="vm.visibleNewList = false">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       </div>
   </div>
   <!-- /.lists__wrapper -->

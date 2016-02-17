@@ -10,7 +10,8 @@
         restrict: 'E',
         replace: true,
         scope: {
-          data: "="
+          data: '=',
+          reload: '&'
         },
         templateUrl: './scripts/common/directives/list/list.tpl.html',
         link: linkFunc
@@ -26,6 +27,7 @@
         scope.visibleNewCard = false;
         scope.createNewCard = createNewCard;
         scope.showNewCardInput = showNewCardInput;
+        scope.removeList = removeList;
 
         function showNewCardInput() {
           scope.visibleNewCard = true;
@@ -37,8 +39,11 @@
             scope.text.push(scope.newCardsText);
             scope.focusOn = true;
             scope.newCardsText = null;
-
           }
+        }
+
+        function removeList() {
+          scope.reload({ title: scope.data });
         }
       }
     }

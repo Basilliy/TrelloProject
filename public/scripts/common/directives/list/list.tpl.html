@@ -6,14 +6,16 @@
         <circle cx="12" cy="12" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="12" cy="19" r="2"/>
       </svg>
       <ul class="dropdown-menu list__dropdown" ng-show="showDropdown">
-        <li><a href="#">Remove list</a></li>
-        <li><a href="#">Make private</a></li>
+        <li><a href="" ng-click="removeList()">Remove list</a></li>
+        <li><a href="">Make private</a></li>
       </ul>
     </div>
   </div>
   <!-- /.list__header -->
-  <div class="list__cards">
-    <card ng-repeat="card in text" data="card"></card>
+  <div class="list__cards" ui-tree>
+    <div ui-tree-nodes="" ng-model="text">
+      <card ng-repeat="card in text track by $index" data="card" ui-tree-node></card>
+    </div>
     <!-- /.list__card -->
     <div class="card__new" ng-show="visibleNewCard">
       <div class="panel panel-default panel-default--margin">

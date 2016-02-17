@@ -37,7 +37,7 @@
 .list__wrapper {
   width: 270px;
   height: 100%;
-  margin: 0 5px;
+  margin: 0 8px;
   display: inline-block;
   vertical-align: top;
 }
@@ -51,7 +51,7 @@
 }
 
 .list__new__placeholder {
-
+  margin: 0;
 }
 
 .list__new__input {
