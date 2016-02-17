@@ -29,10 +29,6 @@
   <p class="text-danger"
      ng-show="(regForm.password.$error.required && !regForm.password.$pristine) || (regForm.password.$pristine && vm.submitted)">Oops! Password is required.</p>
  </div>
- <div class="form-group fg">
-  <label for="text">Ник</label>
-  <input type="text" class="form-control" id="text" placeholder="Введите ник">
- </div>
  <button type="submit" class="btn btn-success" id="sub1" ng-click="vm.registration(regForm.$valid)">Зарегистрироваться</button>
   </form>
   <a ui-sref="login">Log in</a>

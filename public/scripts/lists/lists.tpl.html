@@ -23,48 +23,12 @@
   </div>
   <!-- /.lists__header -->
   <div class="lists__wrapper">
-    <div class="list__wrapper">
-      <div class="list__header">
-        <h4>Test list</h4>
-      </div>
-      <!-- /.list__header -->
-      <div class="list__cards">
-        <div class="list__card">
-          <div class="list__card__details"></div>
-            <div class="panel panel-default list__card__text">
-              <div class="panel-body">
-                Basic panel example
-              </div>
-            </div>
-          <div class="list__card__members"></div>
-        </div>
-        <div class="list__card">
-          <div class="list__card__details"></div>
-            <div class="panel panel-default list__card__text">
-              <div class="panel-body">
-                Basic panel example
-              </div>
-            </div>
-          <div class="list__card__members"></div>
-        </div>
-        <div class="list__card">
-          <div class="list__card__details"></div>
-            <div class="panel panel-default list__card__text">
-              <div class="panel-body">
-                Basic panel example
-              </div>
-            </div>
-          <div class="list__card__members"></div>
-        </div>
-        <!-- /.list__card -->
-      </div>
-      <!-- /.list__cards -->
-      <div class="list__footer">
-        <a href="">Add a beer...</a>
-      </div>
-      <!-- /.list__footer -->
+    <div class="list__wrapper" ng-repeat="list in vm.listsTitle">
+      <list data="list"></list>
     </div>
-    <!-- /.list__wrapper -->
+    <div class="list__wrapper list__new well well-sm">
+        Add a list...
+      </div>
   </div>
   <!-- /.lists__wrapper -->
 </section>

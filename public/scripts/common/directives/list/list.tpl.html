@@ -1,0 +1,35 @@
+<div class="list">
+  <div class="list__header">
+    <h4 class="list__header__text" ng-bind="data"></h4>
+    <div class="list__settings" ng-click="showDropdown = !showDropdown">
+      <svg enable-background="new 0 0 24 24" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle cx="12" cy="12" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="12" cy="19" r="2"/>
+      </svg>
+      <ul class="dropdown-menu list__dropdown" ng-show="showDropdown">
+        <li><a href="#">Remove list</a></li>
+        <li><a href="#">Make private</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- /.list__header -->
+  <div class="list__cards">
+    <card ng-repeat="card in text" data="card"></card>
+    <!-- /.list__card -->
+    <div class="card__new">
+      <div class="panel panel-default panel-default--margin">
+        <div class="panel-body">
+          <textarea class="card__new__textarea" ng-model="newCardsText"></textarea>
+        </div>
+      </div>
+      <div class="card__new__controll">
+        <button type="button" class="btn btn-success">Add</button>
+        <button type="button" class="close card__new__close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+    </div>
+  </div>
+  <!-- /.list__cards -->
+  <div class="list__footer">
+    <a href="" ng-click="createNewCard()">Add a beer...</a>
+  </div>
+  <!-- /.list__footer -->
+</div>

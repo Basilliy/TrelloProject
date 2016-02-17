@@ -7,6 +7,7 @@ var rename = require('gulp-rename');
 // var addsrc = require('gulp-add-src');
 var cssnano = require("gulp-cssnano")
 var livereload = require('gulp-livereload');
+var sourcemaps = require('gulp-sourcemaps');
 
 var vendorLibJs = [
   'node_modules/angular/angular.min.js',
@@ -16,17 +17,21 @@ var vendorLibJs = [
 
 gulp.task('js', function() {
   return gulp.src(['./public/scripts/**/*.js', '!./public/scripts/**/*.test.js'])
+    .pipe(sourcemaps.init())
     .pipe(concat('main.js'))
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
+    .pipe(sourcemaps.write("."))
     .pipe(gulp.dest('./public/dist'));
 });
 
 gulp.task("css", function() {
   return gulp.src('./public/scripts/**/*.css')
+    .pipe(sourcemaps.init())
     .pipe(cssnano())
     .pipe(concat('style.css'))
     .pipe(rename({suffix: '.min'}))
+    .pipe(sourcemaps.write("."))
     .pipe(gulp.dest("./public/dist"))
     .pipe(livereload());
 });
