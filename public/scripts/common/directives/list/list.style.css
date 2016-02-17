@@ -44,9 +44,18 @@
   resize: none;
   outline: 0;
   border: 0;
+  overflow: hidden;
 }
 
 .card__new__close {
   float: none;
   font-size: 30px;
+}
+
+.card__new__add {
+  vertical-align: top;
+}
+
+.card__new__close {
+  opacity: .4;
 }

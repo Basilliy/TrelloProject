@@ -1,7 +1,7 @@
 (function() {
 
   angular
-    .module('trelloProject', ['ui.router', 'ngResource'])
+    .module('trelloProject', ['ui.router', 'ngResource', 'ngScrollable'])
     .config(configRouter)
     .run(configRun)
 

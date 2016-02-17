@@ -23,10 +23,22 @@
         'The top six foods that make your fart are beans, corn, bell peppers, cauliflower, cabbage and milk!',
         'Alcohol activates and stimulates the same part of the brain associated with honesty.'];
 
+        scope.visibleNewCard = false;
         scope.createNewCard = createNewCard;
+        scope.showNewCardInput = showNewCardInput;
+
+        function showNewCardInput() {
+          scope.visibleNewCard = true;
+          scope.focusOn = true;
+        }
 
         function createNewCard() {
-          console.log("create");
+          if (scope.newCardsText) {
+            scope.text.push(scope.newCardsText);
+            scope.focusOn = true;
+            scope.newCardsText = null;
+
+          }
         }
       }
     }

@@ -12,7 +12,8 @@ var sourcemaps = require('gulp-sourcemaps');
 var vendorLibJs = [
   'node_modules/angular/angular.min.js',
   'node_modules/angular-ui-router/release/angular-ui-router.min.js',
-  'node_modules/angular-resource/angular-resource.min.js'
+  'node_modules/angular-resource/angular-resource.min.js',
+  'public/libs/ng-scrollable/min/ng-scrollable.min.js'
 ];
 
 gulp.task('js', function() {

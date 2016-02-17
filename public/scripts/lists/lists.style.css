@@ -19,14 +19,14 @@
 }
 
 .lists__avatar {
-  height: 40px;
-  width: 40px;
+  height: 32px;
+  width: 32px;
   background-color: #fff;
 }
 
 .lists__username {
   display: inline-block;
-  margin: 15px;
+  margin: 15px 10px;
   color: #777;
 }
 
@@ -48,4 +48,18 @@
 
 .list__new {
   display: inline-block;
+}
+
+.list__new__placeholder {
+
+}
+
+.list__new__input {
+  width: 100%;
+  display: block;
+  outline: 0;
+}
+
+.list__new__controll {
+  margin-top: 10px;
 }
