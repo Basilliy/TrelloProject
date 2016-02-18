@@ -23,7 +23,7 @@
   </div>
   <!-- /.lists__header -->
   <div class="lists__wrapper">
-    <div class="list__wrapper" ng-repeat="list in vm.listsTitle track by $index">
+    <div class="list__wrapper" ng-repeat="list in vm.lists">
       <list data="list" reload="vm.removeList(title)"></list>
     </div>
     <div class="list__wrapper list__new well well-sm">

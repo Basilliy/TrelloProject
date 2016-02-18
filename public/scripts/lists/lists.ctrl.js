@@ -5,18 +5,23 @@
     .module('trelloProject')
     .controller('ListsPageController', ListsPageController);
 
-    function ListsPageController() {
+    ListsPageController.$inject = ["ListService"];
+    function ListsPageController(ListService) {
       var vm = this;
-      vm.listsTitle = ['Inbox', 'First list', 'Second list tararar tutu im a crazy train tyty', 'Another yet list'];
       vm.visibleNewList = false;
-
       vm.createNewList = createNewList;
       vm.setVisibleNewList = setVisibleNewList;
       vm.removeList = removeList;
 
+      ListService.get(function(responce) {
+         vm.lists = responce.lists;
+         console.log(vm.lists);
+      });
+
+
       function createNewList() {
         if (vm.newListTitle) {
-          vm.listsTitle.push(vm.newListTitle);
+          vm.lists.push(vm.newListTitle);
         }
       }
 
@@ -25,10 +30,10 @@
       }
 
       function removeList(title) {
-        var index = vm.listsTitle.indexOf(title);
+        var index = vm.lists.indexOf(title);
 
         if (index > -1) {
-          vm.listsTitle.splice(index, 1);
+          vm.lists.splice(index, 1);
         }
       }
     }

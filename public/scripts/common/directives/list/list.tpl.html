@@ -1,6 +1,6 @@
 <div class="list">
   <div class="list__header">
-    <h4 class="list__header__text" ng-bind="data"></h4>
+    <h4 class="list__header__text" ng-bind="data.title"></h4>
     <div class="list__settings" ng-click="showDropdown = !showDropdown">
       <svg enable-background="new 0 0 24 24" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <circle cx="12" cy="12" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="12" cy="19" r="2"/>
@@ -13,8 +13,8 @@
   </div>
   <!-- /.list__header -->
   <div class="list__cards" ui-tree>
-    <div ui-tree-nodes="" ng-model="text">
-      <card ng-repeat="card in text track by $index" data="card" ui-tree-node></card>
+    <div ui-tree-nodes="" ng-model="data.cards">
+      <card ng-repeat="card in data.cards" data="card" ui-tree-node></card>
     </div>
     <!-- /.list__card -->
     <div class="card__new" ng-show="visibleNewCard">

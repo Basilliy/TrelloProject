@@ -20,10 +20,6 @@
       return directive;
 
       function linkFunc(scope, elem, attrs) {
-        scope.text = ['Polar bears can eat as many as 86 penguins in a single sitting.',
-        'The top six foods that make your fart are beans, corn, bell peppers, cauliflower, cabbage and milk!',
-        'Alcohol activates and stimulates the same part of the brain associated with honesty.'];
-
         scope.visibleNewCard = false;
         scope.createNewCard = createNewCard;
         scope.showNewCardInput = showNewCardInput;
@@ -36,14 +32,14 @@
 
         function createNewCard() {
           if (scope.newCardsText) {
-            scope.text.push(scope.newCardsText);
+            scope.data.cards.push(scope.newCardsText);
             scope.focusOn = true;
             scope.newCardsText = null;
           }
         }
 
         function removeList() {
-          scope.reload({ title: scope.data });
+          scope.reload({ title: scope.data.title });
         }
       }
     }

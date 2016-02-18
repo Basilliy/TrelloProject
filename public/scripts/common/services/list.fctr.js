@@ -7,8 +7,6 @@
 
     ListService.$inject = ['$resource'];
     function ListService($resource) {
-      return $resource('/list/:id', {
-        id: '@id'
-      });
+      return $resource('resource.json');
     }
 })();
