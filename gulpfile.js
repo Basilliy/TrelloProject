@@ -46,14 +46,14 @@ gulp.task("css", function() {
 gulp.task('vendor-js', function() {
   return gulp.src(vendorLibJs)
     .pipe(concat('vendor.js'))
-    .pipe(rename({suffix: '.min'}))
+    // .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('./public/dist'));
 });
 
 gulp.task('vendor-css', function() {
   return gulp.src(vendorLibCss)
     .pipe(concat('vendor.css'))
-    .pipe(rename({suffix: '.min'}))
+    // .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('./public/dist'));
 });
 
