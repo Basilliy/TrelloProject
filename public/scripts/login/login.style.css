@@ -1,0 +1,37 @@
+#d1{
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px gray;
+}
+#d11{
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px gray;
+    
+}
+#sub1{
+    width: 100%;
+     border-radius: 0 0 15px 15px;
+}
+#sub{
+    width: 100%;
+     
+}
+.fg{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#d1h2{
+    margin: 0;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 15px 15px 0 0;
+    
+}

@@ -1,0 +1,47 @@
+{
+  "name": "trelloproject",
+  "version": "0.3.0",
+  "description": "This is analog of the Trello app",
+  "main": "index.html",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basilliy/TrelloProject.git"
+  },
+  "keywords": [
+    "analog",
+    "trello",
+    "good",
+    "app"
+  ],
+  "author": "Agile team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Basilliy/TrelloProject/issues"
+  },
+  "homepage": "https://github.com/Basilliy/TrelloProject#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-resource": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "angular-ui-tree": "^2.14.0",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.0",
+    "gulp-add-src": "^0.2.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-safari-launcher": "^0.1.1",
+    "livereload": "^0.4.1"
+  }
+}
