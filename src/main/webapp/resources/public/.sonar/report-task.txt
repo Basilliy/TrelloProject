@@ -1,0 +1,5 @@
+projectKey=my:javascript-trelloapp
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/my:javascript-trelloapp
+ceTaskId=AVLDLqS1Eh37EdVoxXKr
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVLDLqS1Eh37EdVoxXKr

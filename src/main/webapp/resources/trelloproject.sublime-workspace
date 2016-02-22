@@ -1,0 +1,1316 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"index"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"s",
+				"scripts"
+			],
+			[
+				"con",
+				"align-content"
+			],
+			[
+				"a",
+				"angular-resource"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"pr",
+				"profile"
+			],
+			[
+				"use",
+				"UserService"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"sc",
+				"scope"
+			],
+			[
+				"tas",
+				"taskId"
+			],
+			[
+				"list",
+				"listId"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"d",
+				"done"
+			],
+			[
+				"lis",
+				"list"
+			],
+			[
+				"ta",
+				"TaskService"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"l",
+				"lists"
+			],
+			[
+				"g",
+				"govno"
+			],
+			[
+				"t",
+				"title"
+			],
+			[
+				"newPa",
+				"newPassConfirm"
+			],
+			[
+				"sav",
+				"savePassword"
+			],
+			[
+				"c",
+				"clearMessageError"
+			],
+			[
+				"u",
+				"User"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"state",
+				"stateNames"
+			],
+			[
+				"stat",
+				"stateNames"
+			],
+			[
+				"ma",
+				"main-interests"
+			],
+			[
+				"main",
+				"main-profile"
+			],
+			[
+				"main-",
+				"main-lists"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"li",
+				"listId"
+			],
+			[
+				"i",
+				"item"
+			],
+			[
+				"ara",
+				"arrayToSend"
+			],
+			[
+				"arr",
+				"arrayToSend"
+			],
+			[
+				"se",
+				"selectedInterest"
+			],
+			[
+				"colo",
+				"colorsArray"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"data",
+				"data-id"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"cu",
+				"customFocusDirective"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"new",
+				"newUser"
+			],
+			[
+				"ava",
+				"avatarImage"
+			],
+			[
+				"ex",
+				"exports"
+			],
+			[
+				"rs",
+				"responseData"
+			],
+			[
+				"fi",
+				"fileReaderDirective"
+			],
+			[
+				"file",
+				"fileReader"
+			],
+			[
+				"nav",
+				"navVm"
+			],
+			[
+				"ope",
+				"openDropdown"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"chil",
+				"childElement"
+			],
+			[
+				"ele",
+				"elem"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"da",
+				"dataType"
+			],
+			[
+				"toke",
+				"tokenBearer"
+			],
+			[
+				"api",
+				"apiRoutes"
+			],
+			[
+				"clos",
+				"closePopup"
+			],
+			[
+				"close",
+				"closePopupButton"
+			],
+			[
+				"fnc",
+				"function"
+			],
+			[
+				"cha",
+				"changeColor"
+			],
+			[
+				"return",
+				"returnData"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"q",
+				"queryName"
+			],
+			[
+				"id_",
+				"id_task"
+			],
+			[
+				"th",
+				"then"
+			],
+			[
+				"change",
+				"changeTaskDirective"
+			],
+			[
+				"chane",
+				"changeTaskDirective"
+			],
+			[
+				"Image",
+				"imageData"
+			],
+			[
+				"ima",
+				"imageName"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"listI",
+				"listImage"
+			],
+			[
+				"chan",
+				"changeBackground"
+			],
+			[
+				"su",
+				"submitData"
+			],
+			[
+				"log",
+				"loginVm"
+			],
+			[
+				"req",
+				"reqIsEmpty"
+			],
+			[
+				"si",
+				"signupVm"
+			],
+			[
+				"submi",
+				"submitData"
+			],
+			[
+				"link",
+				"linkFunc"
+			],
+			[
+				"task",
+				"taskId"
+			],
+			[
+				"lin",
+				"linkFunc"
+			],
+			[
+				"clea",
+				"clearInput"
+			],
+			[
+				"add",
+				"addNewTask"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"acc",
+				"account"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"va",
+				"validation"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"reg",
+				"regVm"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ne",
+				"newUser"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fo",
+				"formRegData"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"sas",
+				"sassPath"
+			],
+			[
+				"p",
+				"public"
+			],
+			[
+				"R",
+				"registrationCtrl"
+			],
+			[
+				"pu",
+				"push"
+			],
+			[
+				"ap",
+				"api"
+			],
+			[
+				"find",
+				"findOne"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"m",
+				"meanJustDoIt"
+			],
+			[
+				"an",
+				"angular-ui-router"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"ani",
+				"animateBall"
+			],
+			[
+				"am",
+				"animateBall"
+			],
+			[
+				"cl",
+				"clientX"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/scripts/registration/registration.ctrl.js",
+			"settings":
+			{
+				"buffer_size": 472,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/scripts/login/login.tpl.html",
+			"settings":
+			{
+				"buffer_size": 1233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/scripts/login/login.ctrl.js",
+			"settings":
+			{
+				"buffer_size": 459,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/scripts/registration/register.html",
+			"settings":
+			{
+				"buffer_size": 1420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/scripts/index/index.tpl.html",
+			"settings":
+			{
+				"buffer_size": 468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/scripts/index/index.style.css",
+			"settings":
+			{
+				"buffer_size": 280,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "syn css",
+		"selected_items":
+		[
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/evgenij/Documents/Work/js/TrelloProject",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts"
+	],
+	"file_history":
+	[
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/app.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/login/login.tpl.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/login/login.tpl.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/index.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/main.css",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/index/index.style.css",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/index/index.tpl.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/404/404.style.css",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/404/404.tpl.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/login/login.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/gulpfile.js",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/boards/boards.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/index/login.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/index/index.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/boards/boards.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/index/index-style.css",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/registration/register.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/index.html",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/sonar-project.properties",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scripts/sonar-project.properties",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/.editorconfig",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/package.json",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/.gitignore",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scss/main.scss",
+		"/Users/evgenij/Documents/Work/js/TrelloProject/public/scss/_variables.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/user-task/_user-task.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/auth/auth-signup/_auth-signup.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/auth/auth-login/auth-login.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main/main-lists/main-lists.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/app/routes/task.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/app.mdl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main/main-interests/main-interests.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/user-list/_user-list.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main/main-interests/main-interests.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/app/routes/list.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/auth/auth-signup/auth-signup.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/app/mainRoute.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main-profile/main-profile.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/task.fctr.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/index.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main-profile/main-profile.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/user-task/user-task.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/user-list/user-list.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/app/routes/user.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/user.fctr.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/navbar-user/navbar-user.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/navbar-user/_navbar-user.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/user-data.srv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main-profile/profile-password/profile-password.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main-profile/profile-account/profile-account.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/auth.fctr.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/change-background/change-background.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/background-data.srv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/lists.fctr.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/task-data.srv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/list-data.srv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/user-task/user-task.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/user-list/user-list.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/app/models/list.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/bower.json",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/app-bootstrap.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/popup/new-list/new-list.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main-profile/_main-profile.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main/main-lists/main-lists.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/package.json",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main-profile/profile-account/profile-account.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main-profile/profile-account/_profile-account.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main-profile/profile-password/profile-password.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/navbar-auth/navbar-auth.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/README.md",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/navbar-user/navbar-user.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/auth/auth-signup/auth-signup.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/app/routes/auth.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/app/models/user.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/change-background/_change-background.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/sass/main.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main/main-lists/_main-lists.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/sass/_variables.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/auth/auth-login/auth-login.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-profile/user-profile.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/user-navbar/user-navbar.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main/main.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/change-background/change-background.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-interests/_user-interests.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/img/icon/delete.svg",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/img/icon/checkmark.svg",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/contenteditable/contenteditable.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/user-navbar/user-navbar.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-signup/user-signup.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-interests/user-interests.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-profile/user-profile.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-interests/user-interests.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/user-auth.srv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-login/user-login.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-profile/_user-profile.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/server.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/user-interests/user-interests.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/user-interests/user-interests.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/auth-navbar/_auth-navbar.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/user-navbar/_user-navbar.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/app/models/task.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/click-enter/click-enter.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/click-outside/click-outside.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-home/user-home.ctrl.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/custom-focus/custom-focus.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/popup/new-list/_new-list.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-signup/_user-signup.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/gulpfile.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/config/interests.json",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/node_modules/jsonwebtoken/test/expires_format.tests.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-home/_user-home.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/.gitignore",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-home/user-home.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/config/preload.json",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-login/user-login.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/config/preload-list.json",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-signup/user-signup.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/sass/_common.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/file-reader/file-reader.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/fog/fog.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/directives/file-loader/file-reader.drv.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/404/404.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/common/services/auth-interceptor.fctr.js",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/sass/_view-control.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/sass/_header.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/auth-navbar.tpl.html",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/auth-navbar.stl.scss",
+		"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/navbar/user-navbar.tpl/user-navbar.ctrl.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/login/login.tpl.html",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/popup/new-list",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/main/main-lists",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/app/routes",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/app/models",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/libs/bootstrap-sass/assets/stylesheets/bootstrap",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/app",
+			"/Users/evgenij/Documents/Work/js/js-justdoit",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-signup",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-login",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-login",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts/core/user-signup",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/img/icon",
+			"/Users/evgenij/Documents/Work/js/js-justdoit/public/scripts",
+			"/Users/evgenij/Documents/Work/js/js-justdoit",
+			"/Users/evgenij/Documents/design fox",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"regForm",
+			"task-wrapper",
+			"task-wrapper:after",
+			"after",
+			"before",
+			"Service",
+			"userDataService",
+			"lists",
+			"listData",
+			"listsDataService",
+			"TaskService",
+			"listsDataService",
+			"taskDataService",
+			"title",
+			"taskData",
+			"taskT",
+			"getTaskId",
+			"setTaskId",
+			"listDataService",
+			"homeVm",
+			"homeVm\n",
+			";\n",
+			"homeSubview",
+			"ui-sref",
+			"go",
+			"active",
+			"textBeforeEdit",
+			"addClass",
+			"attr",
+			"focus",
+			"setTaskId",
+			"textBeforeEdit",
+			"listData",
+			"task",
+			"elem",
+			"isChild",
+			"console.log",
+			"jwt",
+			".navbar__auth",
+			"#home",
+			"#",
+			"toggleDropdownProfile",
+			"editTask",
+			".task-text",
+			"user-data",
+			"container",
+			"button",
+			"nav > li",
+			".nav > li",
+			"console.log",
+			"console",
+			"req.user.name",
+			"closePopup",
+			"returnData",
+			"parent",
+			"submitted",
+			"currentList",
+			"rootScope",
+			"3",
+			"user",
+			"listController",
+			"vm.",
+			"vm",
+			"list-preference-icon",
+			"list-input-style-underline",
+			".dropdown-menu",
+			"task-group",
+			"taskList",
+			"show",
+			"task",
+			"todo",
+			"task",
+			"todo",
+			"task",
+			"todo",
+			"newListForm",
+			"listForm",
+			"regForm",
+			"authForm",
+			"HomeCtrl",
+			"SignupCtrl",
+			"LoginCtrl",
+			"authVm",
+			"AuthenticationCtrl",
+			"regVm",
+			"auth",
+			"registration",
+			"AccountCtrl",
+			"accountVm",
+			"path",
+			"использ",
+			"$rootScope.showLogout",
+			"llamaList",
+			"justDoIt",
+			"!",
+			"registVm",
+			"User",
+			"superSecret",
+			"express",
+			"serializeUser",
+			"seria",
+			"big-test.7-40.org",
+			"share-buttons",
+			"krown-button",
+			"load-btn",
+			"krown-button",
+			"class=\"krown-button",
+			"Download<a",
+			"Download",
+			"loads-count",
+			"krown-column-container",
+			"class=\"krown-button",
+			"load-btn",
+			"krown-button color normal load-btn",
+			"krown-button",
+			"id=\"article\"",
+			"console",
+			"function",
+			"white_space",
+			"localhost",
+			"web.7-40",
+			"localhost:8888",
+			"http://web.7-40.org",
+			"script",
+			"resourses",
+			"globalHappiness",
+			"slider",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"loginForm",
+			"listsDataService",
+			"listsVm",
+			"mainSubview",
+			"active-bakground",
+			"userData",
+			"req.decoded.name",
+			"newListSubmitted",
+			"currentListId",
+			"task",
+			"homeVm.newListForm",
+			"newListForm",
+			"signupForm",
+			"loginForm",
+			"HomePageCtrl",
+			"SignupPageCtrl",
+			"LoginPageCtrl",
+			"loginVm",
+			"LoginCtrl",
+			"signupVm",
+			"login",
+			"signup",
+			"HomeCtrl",
+			"homeVm",
+			"llamaLists",
+			"llamaList",
+			"regVm",
+			"7-40.org",
+			"http://localhost:8888",
+			"localhost",
+			"localhost:8888",
+			"javascripts",
+			"public"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/scripts/registration/registration.ctrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								458
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/scripts/login/login.tpl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/scripts/login/login.ctrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/scripts/registration/register.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								881,
+								859
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/scripts/index/index.tpl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/scripts/index/index.style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 85.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "trelloproject.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
