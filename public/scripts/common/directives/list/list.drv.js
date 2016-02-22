@@ -14,32 +14,43 @@
           reload: '&'
         },
         templateUrl: './scripts/common/directives/list/list.tpl.html',
-        link: linkFunc
+        controller: listController,
+        controllerAs: 'vm',
+        bindToController: true
+
       }
 
       return directive;
 
-      function linkFunc(scope, elem, attrs) {
-        scope.visibleNewCard = false;
-        scope.createNewCard = createNewCard;
-        scope.showNewCardInput = showNewCardInput;
-        scope.removeList = removeList;
+    }
 
-        function showNewCardInput() {
-          scope.visibleNewCard = true;
-          scope.focusOn = true;
-        }
+    function listController() {
+      var vm = this;
 
-        function createNewCard() {
-          if (scope.newCardsText) {
-            scope.data.cards.push(scope.newCardsText);
-            scope.focusOn = true;
-            scope.newCardsText = null;
+      vm.visibleNewCard = false;
+      vm.createNewCard = createNewCard;
+      vm.showNewCardInput = showNewCardInput;
+      vm.removeList = removeList;
+
+      function showNewCardInput() {
+        vm.visibleNewCard = true;
+        vm.focusOn = true;
+      }
+
+      function removeList() {
+        vm.reload({ title: vm.data.title });
+      }
+
+
+      function createNewCard() {
+        if (vm.newCardsText) {
+          var newCards = {
+            text: vm.newCardsText
           }
-        }
 
-        function removeList() {
-          scope.reload({ title: scope.data.title });
+          vm.data.cards.push(newCards);
+          vm.focusOn = true;
+          vm.newCardsText = null;
         }
       }
     }

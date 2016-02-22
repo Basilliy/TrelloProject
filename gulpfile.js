@@ -23,7 +23,7 @@ var vendorLibCss = [
 ];
 
 gulp.task('js', function() {
-  return gulp.src(['./public/scripts/**/*.js', '!./public/scripts/**/*.test.js'])
+  return gulp.src(['./public/scripts/**/*.js', '!./public/scripts/**/*.spec.js'])
     .pipe(sourcemaps.init())
     .pipe(concat('main.js'))
     .pipe(rename({suffix: '.min'}))

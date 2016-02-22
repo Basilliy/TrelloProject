@@ -21,7 +21,7 @@ module.exports = function(config) {
       'node_modules/angular-mocks/angular-mocks.js',
       'public/scripts/app.js',
       'public/scripts/registration/registration.ctrl.js',
-      'public/scripts/registration/registration.test.js'
+      'public/scripts/registration/registration.spec.js'
     ],
 
 

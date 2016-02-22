@@ -15,7 +15,7 @@
         vm.submitted = true;
 
         if (validate) {
-          $state.go('lists')
+          $state.go('main.lists')
         }
       }
 

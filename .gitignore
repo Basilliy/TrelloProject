@@ -48,3 +48,5 @@ node_modules/*
 
 # Project files #
 #################
+.sonar
+sonar-project.properties

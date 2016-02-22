@@ -1,3 +1,7 @@
+.card__margin {
+  margin-bottom: 10px;
+}
+
 .list__card__text {
   word-wrap: break-word;
 }

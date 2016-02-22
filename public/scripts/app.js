@@ -24,10 +24,23 @@
           controller: 'RegistrationPageController',
           controllerAs: 'vm'
         })
-        .state('lists',{
+        .state("main", {
+          url: "",
+          abstract: true,
+          templateUrl: './scripts/main/main.tpl.html',
+          controller: 'MainPageController',
+          controllerAs: 'vm'
+        })
+        .state('main.lists',{
           url: '/lists',
-          templateUrl: './scripts/lists/lists.tpl.html',
+          templateUrl: './scripts/main/lists/lists.tpl.html',
           controller: 'ListsPageController',
+          controllerAs: 'vm'
+        })
+        .state('main.profile',{
+          url: '/profile',
+          templateUrl: './scripts/main/profile/profile.tpl.html',
+          controller: 'ProfilePageController',
           controllerAs: 'vm'
         })
         .state('notfound', {
