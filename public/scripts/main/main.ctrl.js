@@ -11,9 +11,7 @@
       vm.closeDropdown = closeDropdown;
 
       function closeDropdown() {
-        console.log(vm.showDropdown)
         vm.showDropdown = false;
-        console.log(vm.showDropdown)
       }
     }
 

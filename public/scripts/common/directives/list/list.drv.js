@@ -28,9 +28,15 @@
       var vm = this;
 
       vm.visibleNewCard = false;
+      vm.closeDropdown = closeDropdown;
       vm.createNewCard = createNewCard;
       vm.showNewCardInput = showNewCardInput;
       vm.removeList = removeList;
+
+
+      function closeDropdown() {
+        vm.showDropdown = false;
+      }
 
       function showNewCardInput() {
         vm.visibleNewCard = true;
