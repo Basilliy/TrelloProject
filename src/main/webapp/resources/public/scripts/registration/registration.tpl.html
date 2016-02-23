@@ -1,0 +1,35 @@
+
+<div id="d11">
+ <form role="form" name="regForm" novalidate>
+ <h2 id="d1h2">Форма регистрации</h2>
+ <hr>
+ <div class="form-group fg">
+  <label for="email">Email</label>
+  <input type="email"
+         name="email"
+         class="form-control"
+         id="email"
+         placeholder="Введите email"
+         ng-model="vm.email"
+         required>
+  <p class="text-danger"
+     ng-show="(regForm.email.$error.required && !regForm.email.$pristine) || (regForm.email.$pristine && vm.submitted)">Oops! Email is required.</p>
+  <p class="text-danger"
+     ng-show="regForm.email.$error.email && !regForm.email.$pristine">Oops! Email is incorrect.</p>
+ </div>
+ <div class="form-group fg" >
+  <label for="pass">Пароль</label>
+  <input type="password"
+         name="password"
+         class="form-control"
+         id="pass"
+         placeholder="Пароль"
+         ng-model="vm.password"
+         required>
+  <p class="text-danger"
+     ng-show="(regForm.password.$error.required && !regForm.password.$pristine) || (regForm.password.$pristine && vm.submitted)">Oops! Password is required.</p>
+ </div>
+ <button type="submit" class="btn btn-success" id="sub1" ng-click="vm.registration(regForm.$valid)">Зарегистрироваться</button>
+  </form>
+  <a ui-sref="login">Log in</a>
+</div>
